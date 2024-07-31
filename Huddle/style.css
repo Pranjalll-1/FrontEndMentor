@@ -1,0 +1,118 @@
+/*general styles*/
+body{
+  background-color: hsl(257, 40%, 49%);
+  color: white;
+  background-image: url(images/bg-desktop.svg);
+  padding-right: 50px;
+}
+
+/*Logo and Website Name Styles*/
+.logo{
+  display: flex;
+  padding-top: 30px;
+  margin-left: 25px;
+  font-family: Poppins;
+  font-weight: 600;
+  
+}
+.name{
+  font-size: 30px;
+  margin-left: 5px;
+}
+.chat-icon-img{
+  width: 100%;
+  padding-top: 10px;
+}
+
+/*main div*/
+.main{
+  display: flex;
+  padding-left: 80px;
+  margin-top: 100px;
+}
+
+/*Mock illustrations*/
+
+#mock{
+  margin: 0;
+}
+
+/*Header, Description, Register Button*/
+
+.text{
+  margin-top: 20px;
+  padding-left: 80px;
+}
+
+#head1,#head2{
+  font-family: Poppins;
+  margin: 0;
+  font-size: 50px;
+}
+
+.para{
+  display: flex;
+}
+#description{
+  line-height: 29px;
+  font-family: Open Sans;
+  font-weight: 400;
+  color: lightgray;
+  font-size: 18px;
+}
+
+.register-button{
+  margin-top: 20px;
+}
+
+#register{
+  font-family: Open Sans;
+  color: hsl(257, 40%, 49%);
+  padding: 10px 45px 10px 45px;
+  font-size: 15px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  
+  
+}
+
+#register:hover{
+  background-color: hsl(300, 69%, 71%);
+  color: white;
+  box-shadow: 0.5px 0.5px 25px black;
+  
+  transition: 0.15s;
+}
+
+#register:active{
+  background-color: white;
+  color: black;
+  transition: 0.10s;
+}
+
+/*Socials*/
+
+.socials{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: flex-end;
+  margin-top: 150px;
+}
+.socials i{
+  margin-right: 15px;
+  border: 1px solid white;
+  padding: 15px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.socials i:hover{
+  color: hsl(300, 69%, 71%);
+  border-color: hsl(300, 69%, 71%);
+  transition: 0.15s;
+}
+
+
+
+
